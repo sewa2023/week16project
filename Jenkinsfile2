@@ -21,6 +21,8 @@ pipeline {
                     sh 'curl -uadmin:AP7tZ35XC1QdhnhhjBvUhzamyDS -T target/bio*.jar "http://3.85.1.184:8081/artifactory/geoapp/"'
                 }
             }
+            
+            
    
         }
     }
