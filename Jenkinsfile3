@@ -1,4 +1,4 @@
-pipeline{
+pipeline {
     agent{
         label 'ansible'
     }
@@ -7,7 +7,7 @@ pipeline{
             steps{
                 sh 'pwd'
                 sh 'whoami'
-                sh "mkdir (date '+%Y%m%d_%H%M%S')"
+                //sh "mkdir \$(date '+%Y%m%d_%H%M%S')"
             }
         }
     }
